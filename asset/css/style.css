@@ -1,14 +1,16 @@
+/*reset*/
 .reset{
     margin: 0;
     padding: 0;
     box-sizing: 0;
 }
 
-
+/*body*/
 body{
     background-color: rgb(238, 238, 238);
 }
 
+/*titolo*/
 .title{
     display: inline;
     vertical-align: middle;
@@ -16,19 +18,20 @@ body{
 
 }
 
+/*div titolo*/
 .background{
     background-color: rgb(255, 255, 255);
     margin-top: -10px;
     margin-left: -10px;
     margin-right: -10px;
 }
-
+/*div titolo*/
 .padding{
     padding: 5px;
     margin-left: 10px;
     vertical-align: middle;
 }
-
+/*bottone Add Task*/
 .botton-header{
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(63, 174, 243);
@@ -45,7 +48,7 @@ body{
     
     
 }
-
+/*bottone Add Section*/
 .botton-header2{
     border: 1px solid rgb(192, 192, 192);
     background-color: rgb(252, 252, 252);
@@ -68,7 +71,7 @@ body{
     
 }
 
-
+/*div bottoni*/
 .div1{
     background-color: rgb(255, 255, 255);
     width: 75%;
@@ -81,11 +84,11 @@ body{
     
     
 }
-
+/*div principale*/
 .div2{
     background-color: rgb(255, 255, 255);
     width: 75%;
-    height: 500px;
+    height: 700px;
     margin: 0 auto;
     margin-top: 40px;
     border-bottom-left-radius : 4px;
@@ -96,6 +99,7 @@ body{
     
 }
 
+/*impostazione testo*/
 .text{
     margin-left: 60px;
     font-family: Arial, Helvetica, sans-serif;
@@ -132,6 +136,7 @@ body{
     margin-left: 60px;
     display: inline-block;
     margin-left: 3px;
+    margin-top: 10px;
 }
 
 .Q1{
@@ -185,6 +190,36 @@ body{
 .mobile{
     border: 1px solid rgb(255, 255, 255);
     background-color: rgb(230, 133, 43);
+    color: white;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    margin-left: 60px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.website{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(224, 107, 215);
+    color: white;
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 15px;
+    margin-left: 60px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 10px;
+}
+
+.sales{
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(107, 211, 86);
     color: white;
     width: 90px;
     height: 30px;
